@@ -17,4 +17,9 @@ public class Pet {
         return breed;
     }
 
+    @Override
+    public String toString() {
+        return this.getName() + " (" + this.getBreed() + ")";
+
+    }
 }
