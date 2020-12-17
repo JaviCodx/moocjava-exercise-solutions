@@ -1,4 +1,5 @@
 
+import java.util.Set;
 
 public class Main {
 
@@ -9,5 +10,8 @@ public class Main {
 
     // implement the method returnSize here, which returns
     // the number of elements in the set that it receives as a parameter.
+    public static int returnSize(Set set) {
+        return set.size();
+    }
 
 }
